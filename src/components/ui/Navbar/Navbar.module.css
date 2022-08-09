@@ -1,0 +1,40 @@
+nav {
+    padding: 16px;
+}
+
+.group {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.group.active,
+.group:hover {
+    background-color: var(--secondary);
+}
+
+.group-title {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.icon {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    transition: 0.1s all;
+}
+
+.icon:active {
+    transform: scale(0.9);
+}
+
+.group-actions .icon:not(:first-child) {
+    margin-left: 15px;
+}

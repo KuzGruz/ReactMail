@@ -1,0 +1,16 @@
+.action-item {
+    cursor: pointer;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.action-item:hover {
+    background-color: #eaeaea;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
